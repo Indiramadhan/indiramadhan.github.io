@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tokokomputer - Beranda</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Bootstrap Stylesheets -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Fontawesome Stylesheet -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <!-- Owl Stylesheet -->
+    <link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.default.min.css">
+</head>
+<body style="background-color: #221F1F;">
+    <!-- Navbar Top -->
+    <nav class="navbar text-white">
+        <div class="container-fluid px-5">
+            Hubungi nomer +62 821 4251 0973
+            <div class="form-switch form-switch-md px-5 me-3">
+              <input class="form-check-input" type="checkbox" role="switch" checked>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar -->
+    <nav class="navbar text-white" style="background-color: #221F1F;">
+        <div class="container-fluid px-4">
+            <div class="col-4 col-md-3 d-flex justify-content-center">
+                <h3><a class="text-decoration-none text-white" href="#">Tokokomputer</a></h3>
+            </div>
+            <div class="col-4 col-md-6">
+                <div class="input-group">
+                    <input type="text" class="form-control rounded-pill rounded-end" placeholder="  intel core i5 terbaru">
+                    <button class="btn btn-light rounded-pill rounded-start" type="button"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+            <div class="col-4 col-md-3 d-flex justify-content-center">
+                <a href="#" class="nav-link me-4">Sign in</a>
+                <a href="#" class="nav-link me-4">Cart (1)</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Carousel -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://dummyimage.com/1366x350/221F1F" class="d-block text-white">
+          </div>
+        </div>
+    </div>
+    <!-- Brand Carousel -->
+    <section class="py-2" id="brands">
+        <div class="row">
+          <div class="large-12 columns">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <img src="https://dummyimage.com/450x200/221F1F" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- Content Product -->
+    <div class="container-fluid py-4 px-5">
+        <h3 class="text-white">Latest Product</h3>
+        <section class="py-2" id="products">
+            <div class="row">
+              <div class="large-12 columns">
+                <div class="owl-carousel owl-theme">
+                  <div class="item">
+                    <div class="card">
+                        <img src="https://dummyimage.com/450x300/221F1F" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <div class="d-grid gap-2">
+                            <a href="#" class="btn btn-primary">Keranjang</a>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+    </div>
+    <!-- Footer -->
+    <div class="container">
+  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+    <div class="col mb-3">
+      <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+        
+      </a>
+      <p class="text-muted">© 2022</p>
+    </div>
+
+    <div class="col mb-3">
+
+    </div>
+
+    <div class="col mb-3">
+      <h5>Section</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+      </ul>
+    </div>
+
+    <div class="col mb-3">
+      <h5>Section</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+      </ul>
+    </div>
+  </footer>
+</div>
+    <!-- Scripting -->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <!-- Script Carousel -->
+    <script>
+        $(document).ready(function() {
+          var owl = $('.owl-carousel');
+          owl.owlCarousel({
+            margin: 10,
+            nav: true,
+            loop: true,
+            responsive: {
+              0: {
+                items: 1
+              },
+              600: {
+                items: 3
+              },
+              1000: {
+                items: 5
+              }
+            }
+          })
+        })
+      </script>
+    <!-- Bootstrap Script -->
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Fontawesoe Script -->
+    <script src="assets/js/all.min.js"></script>
+    <script src="assets/js/fontawesome.min.js"></script>
+    <!-- Owl Script -->
+    <script type="text/javascript" src="assets/owlcarousel/js/owl.carousel.js"></script>
+</body>
+</html>
